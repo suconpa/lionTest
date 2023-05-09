@@ -1,0 +1,128 @@
+@font-face {
+  font-family: "Pretendard-Regular";
+  src: url("https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff")
+    format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+html,
+body {
+  height: 100%;
+}
+
+.logo {
+  width: 250px;
+  margin-bottom: 30px;
+}
+
+.logo img {
+  width: 100%;
+}
+
+body {
+  background: radial-gradient(
+      96.74% 276.79% at 3.59% 5.28%,
+      #f0f4ff 0%,
+      #a5b6ee 100%
+    )
+    /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+  font-family: "Pretendard-Regular";
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+}
+
+main {
+  width: 400px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-items: center;
+  margin-bottom: 150px;
+}
+
+article {
+  text-align: center;
+  background: linear-gradient(144.07deg, #5572bb 2.13%, #374b7c 102.97%);
+  box-shadow: 20px 20px 60px 10px rgba(55, 75, 124, 0.4);
+  border-radius: 16px;
+  width: 400px;
+  height: 360px;
+}
+
+article .border {
+  display: block;
+  background-color: #3d538a;
+  height: 1px;
+  width: 80%;
+  margin: 0 auto 20px auto;
+}
+
+article h2 {
+  padding: 30px;
+}
+
+section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+section > div {
+  display: flex;
+  flex-direction: column;
+  margin: 0 10px;
+}
+
+section .dot {
+  margin-top: 15px;
+}
+
+section .box-style {
+  border: 1px solid #2f406b;
+  width: 70px;
+  height: 70px;
+  line-height: 70px;
+  border-radius: 5px;
+  background: linear-gradient(144.07deg, #5572bb 2.13%, #374b7c 102.97%);
+}
+
+.box {
+  position: relative;
+}
+
+button {
+  all: unset;
+  background: #324577;
+  padding: 10px;
+  color: #617199;
+  border-radius: 50px;
+  width: 100px;
+}
+
+.bun-wrap {
+  margin: 50px;
+}
+
+.box-style {
+  font-size: 2rem;
+}
+
+.box > span {
+  font-family: "Pretendard";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 14px;
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 5px;
+  color: #a5b6ee;
+}
