@@ -98,13 +98,9 @@ section .box-style {
   position: relative;
 }
 
-button {
+.box button {
   all: unset;
-  background: #324577;
-  padding: 10px;
-  color: #617199;
-  border-radius: 50px;
-  width: 100px;
+  cursor: pointer;
 }
 
 .bun-wrap {
@@ -125,4 +121,14 @@ button {
   text-transform: uppercase;
   margin-bottom: 5px;
   color: #a5b6ee;
+}
+
+.bun-wrap button {
+  all: unset;
+  background: #324577;
+  padding: 10px;
+  color: #617199;
+  border-radius: 50px;
+  width: 100px;
+  cursor: pointer;
 }
